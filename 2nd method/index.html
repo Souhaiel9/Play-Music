@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+</head>
+<body>
+    
+    <button id="playTheBill">Hit the bell</button>
+    <script>
+document.getElementById("playTheBill").addEventListener("click", ()=>{
+    var audio = new Audio('Bell Ding.mp3');
+    audio.play()
+})
+
+    </script>
+</body>
+</html>
